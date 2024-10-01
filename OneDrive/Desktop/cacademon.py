@@ -1,6 +1,9 @@
 import pygame as pg
 from pynput import keyboard
 from win32api import GetSystemMetrics
+import os
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 width = GetSystemMetrics(0)
 height = GetSystemMetrics(1)
